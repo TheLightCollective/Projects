@@ -6,16 +6,8 @@
 
 * [Meetings: Google calendar](https://calendar.google.com/calendar?cid=YnJhdmVib3NvbS5vcmdfNjl1OWp2dmpua2lqbzk1dHE1azUyMThhYW9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ)
 
-* Project Tackers: [Core](https://github.com/TheDataRideAlongs/ProjectDomino/projects/1), [Interventions](https://github.com/TheDataRideAlongs/ProjectDomino/projects/2), and [Issues](https://github.com/TheDataRideAlongs/ProjectDomino/issues)
-
-* Infra - ask for account access in Slack
-  * [Private repository](https://github.com/graphistry/ProjectDomino-internal)
-  * Observability - [Grafana/prometheus](http://13.68.225.97:10007/d/n__-I5jZk/neo4j-4-dashboard?orgId=1) and Jupyter notebooks
-  * DB - Neo4j
-  * Orchestration - Prefect
-  * Key sharing - Keybase team
-  * CI - Github Actions
-  * [Labeling funnel & feeds](https://docs.google.com/spreadsheets/d/1FqLYCJqPcxkVYKOn4uQzl0A_7MV4zkYOF94BAITvta0), [proposed extended schema](https://docs.google.com/spreadsheets/d/1VM8JfV23wsLGJ3fl3mGW3Wi3n9Z9-D1NWUfBc4s0M54), and [current knowledge graph schema](https://www.lucidchart.com/documents/edit/674bc883-d01a-449a-8666-5cfc841c54bb/0_0?shared=true)
+* Project Tackers: [Core](https://github.com/TheLightCollective/SuperFunProject), 
+[Interventions](https://github.com/TheLightCollective/SuperFunProject), and [Issues](https://github.com/TheLightCollective/SuperFunProject)
 
 * **Graph4good contributors:** We're excited to work with you! Check out the subprojects below we are actively seeking help on, look at some of the Github Issues, and ping on Slack for which you're curious about tackling and others not here. We can then share our current thoughts and tips for getting started. Most will be useful as pure Python [Google Collab notebook](https://colab.research.google.com) proveouts and local Neo4j Docker + Python proveouts: You can move quickly, and we can more easily integrate into our automation pipelines.
 
@@ -40,9 +32,9 @@ While we cannot publish the raw data due due to compliance restrictions from our
 
 We are working with ethics groups to identify safe interventions along the following lines:
 
-* **Targeting of specific underserved issues**: Primary COVID public health issues such as unsafe social behavior, unsafe medicine, unsafe science, dangerous government policy influence, and adjacent issues such as fake charities, phishing,  malware, and hate group propaganda
+* **Targeting of specific underserved issues**: Need for peersupport when high patient communities are struggling for access to care4.
 
-* **Help top social platforms harden themselves**: Trust and safety teams at top social networks need to be able to warn users about misinformation, de-trend it, and potentially take it down before it has served its purpose. The status quo is handling incidents months after the fact. We will provide real-time alert feeds and scoring APIs to help take action during the critical minutes before misinformation gains significant reach.
+* **Help top social platforms harden themselves**: Trust and safety teams at top social networks need to be able to warn patient communities about misinformation, de-trend it, and potentially take it down before it has served its purpose. The status quo is handling incidents months after the fact. We will provide real-time alert feeds and scoring APIs to help take action during the critical minutes before misinformation gains significant reach.
 
 * **Enable top analysts to investigate coordinated activity**: A minority of groups cause the bulk of the misinformation that gets shared. We are building a high-scale analyst environment featuring technology such as GPU-accelerated visual graph analytics and high-memory notebook servers.
 
@@ -54,13 +46,7 @@ We are working with ethics groups to identify safe interventions along the follo
 
 ## The technologies
 
-* Twitter firehose monitor
-* Data integration pipeline for sources of known scams, fraud, lies, bots, propaganda, extremism, and other misinformation sources
-* Misinformation knowledge graph connecting accounts, posts, reports, and models
-* Automated GPU / graph / machine learning pipeline: general classification (bot, community, ...) and targeted (clinical disinformation, ...)
-* Automated alerting & reporting pipeline
-* Interactive visual analytics environment for data scientists and analysts: GPU, graph, notebooks, ML, ...
-* Intervention bots
+* TBD
 
 ## How to help
 
@@ -100,11 +86,6 @@ We are actively seeking several forms of support:
 
 * **Subprojects**: We are focusing near-term on core data pipeline and simple analyses while building up to the discourse-graph-level ones
 
-  * Firehose pipeline: 
-     * Cleaning up Twitter -> Neo4j/Parquet data conversions
-     * Prefect.io/Airflow Firehose tasks: usertimeline, topic search, ... => Parquet/Neo4j
-     * Switching from Twarc to Twint for higher-volume ingest
-     * Fast large graph (100M row) export of cypher->neo4j->parquet
   * Orchestration tasks:
      * Python entity extractors: tweet -> text, URLs, bitcoin address, topics, ...
      * Python enrichment tasks: external APIs (factcheck, crypto, ...) and lightweight NLP algs (sentiment) and feed back to neo4j
@@ -114,13 +95,12 @@ We are actively seeking several forms of support:
      * Scams: Check URLs & blockchain addresses for known badness
      * Mapping bots & misinformers
   * Automation: Prototypes of
-     * Alert feed + scoring API: Misinfo intel for trust & safety teams that is powered by Neo4j and/or Prefect.io/Airflow
-     * Anti-misinfo chatbot: Upon a misinfo detection, respond to a Twitter thread with a misinfo report URL + WHO safety guide
+     
      * Community leader tools: Personalized alerting for community leaders to detect & respond to misinfo in their close social networks
   
 
 ## Contact
 
-Please contact [Leo Meyerovich, CEO @ Graphistry](https://www.linkedin.com/in/leo-meyerovich-09649219) and [Sean Griffin, CEO @ DisasterTech](https://www.linkedin.com/in/seanmichaelgriffin/) for support and information
+Please contact [Andrea Downing,  @ LightCollective](https://www.linkedin.com/in/leo-meyerovich-09649219) and [Sean Griffin, CEO @ DisasterTech](https://www.linkedin.com/in/seanmichaelgriffin/) for support and information
 
 [Community Slack channel: #COVID](https://thedataridealongs.slack.com/) via an [open invite link](https://join.slack.com/t/thedataridealongs/shared_invite/zt-d06nq64h-P1_3sENXG4Gg0MjWh1jPEw)
