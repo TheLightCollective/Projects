@@ -6,7 +6,7 @@
 
 * [Meetings: Google calendar](https://calendar.google.com/calendar?cid=YnJhdmVib3NvbS5vcmdfNjl1OWp2dmpua2lqbzk1dHE1azUyMThhYW9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ)
 
-* Project Tackers: [Core](https://github.com/TheLightCollective/SuperFunProject), 
+* Project Trackers: [Core](https://github.com/TheLightCollective/SuperFunProject), 
 [Interventions](https://github.com/TheLightCollective/SuperFunProject), and [Issues](https://github.com/TheLightCollective/SuperFunProject)
 
 * **Graph4good contributors:** We're excited to work with you! Check out the subprojects below we are actively seeking help on, look at some of the Github Issues, and ping on Slack for which you're curious about tackling and others not here. We can then share our current thoughts and tips for getting started. Most will be useful as pure Python [Google Collab notebook](https://colab.research.google.com) proveouts and local Neo4j Docker + Python proveouts: You can move quickly, and we can more easily integrate into our automation pipelines.
