@@ -95,6 +95,6 @@ We are actively seeking several forms of support:
 
 ## Contact
 
-Please contact [Andrea Downing,  @ LightCollective](https://www.linkedin.com/in/leo-meyerovich-09649219) and [Sean Griffin, CEO @ DisasterTech](https://www.linkedin.com/in/seanmichaelgriffin/) for support and information
+Please contact [Andrea Downing,  @ LightCollective] (https://www.linkedin.com/in/andreadowning/) for support and information
 
-[Community Slack channel: #COVID](https://thedataridealongs.slack.com/) via an [open invite link](https://join.slack.com/t/thedataridealongs/shared_invite/zt-d06nq64h-P1_3sENXG4Gg0MjWh1jPEw)
+[Follow on Twitter: @BeLikeLight](https://twitter.com/BeLikeLight) 
