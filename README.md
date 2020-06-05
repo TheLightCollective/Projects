@@ -9,7 +9,6 @@
 * Project Trackers: [Core](https://github.com/TheLightCollective/SuperFunProject), 
 [Interventions](https://github.com/TheLightCollective/SuperFunProject), and [Issues](https://github.com/TheLightCollective/SuperFunProject)
 
-* **Graph4good contributors:** We're excited to work with you! Check out the subprojects below we are actively seeking help on, look at some of the Github Issues, and ping on Slack for which you're curious about tackling and others not here. We can then share our current thoughts and tips for getting started. Most will be useful as pure Python [Google Collab notebook](https://colab.research.google.com) proveouts and local Neo4j Docker + Python proveouts: You can move quickly, and we can more easily integrate into our automation pipelines.
 
 
 ## Data
@@ -20,19 +19,10 @@ We are collecting, analyzing, and sharing data around:
 * Feeds: Correlations against labeled data such as bots, fact checks, and indicators of digital crime  
 * Scores: Bots, misinformation, crime, likely location, and more
 
-While we cannot publish the raw data due due to compliance restrictions from our data porviders, we are happy to support individual projects, such as for analyzing and predicting real-world compliance of health policies, and identifying bad actors. Please jump into the Slack or contact a project leader on LinkedIn and we'll get you going.
 
 ## The interventions
 
 We are working with ethics groups to identify safe interventions along the following lines:
-
-* **Targeting of specific underserved issues**: Need for peersupport when high patient communities are struggling for access to care4.
-
-* **Help top social platforms harden themselves**: Trust and safety teams at top social networks need to be able to warn patient communities about misinformation, de-trend it, and potentially take it down before it has served its purpose. The status quo is handling incidents months after the fact. We will provide real-time alert feeds and scoring APIs to help take action during the critical minutes before misinformation gains significant reach.
-
-* **Enable top analysts to investigate coordinated activity**: A minority of groups cause the bulk of the misinformation that gets shared. We are building a high-scale analyst environment featuring technology such as GPU-accelerated visual graph analytics and high-memory notebook servers.
-
-* **Help leaders clean up their community**: Identify and invite community leaders of at-risk groups to use our tools to detect trending misinformation and sift it out from their regular community content.
 
 * **Alert individuals as they are being manipulated**: For manipulated conversations where we have clear intelligence, we are exploring an alert bot that will post the misinformation report directly on the thread, or enable community participants or project partners to do so.
 
@@ -40,7 +30,7 @@ We are working with ethics groups to identify safe interventions along the follo
 
 ## The technologies
 
-* TBD
+* See Slack
 
 ## How to help
 
